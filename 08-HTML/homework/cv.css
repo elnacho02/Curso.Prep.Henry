@@ -1,12 +1,17 @@
+
 .sangria{
     margin-left: 20px;
 }
-.contenido{
-    margin-left: -30px;
-}
+
+
 #contenido{
-    position: absolute;
-    margin-left: 400px;
+    position: relative;
+    margin-left: 300px;
+    
+    
+}
+.contenido {
+    margin-left: 40px;
 }
 
 #lateral {
@@ -19,6 +24,8 @@
     border-right-style: solid;
     border-right-width:5px ;
     border-right-color: gray;
+    margin-right: 0px;
+    
     
 }
 
@@ -28,10 +35,17 @@ ul{
       
 }
 h5{
+    position:relative;
+    
     display: flex;
     justify-content: center;
     font-family:sans-serif;
     font-size: 20px;
+    color: white;
+    background-color: rgb(0, 37, 78);
+   
+    
+    
 
     
 }
@@ -53,4 +67,35 @@ hr{
 p{
     width: 400px;
     margin-top: -10px;
+}
+img{
+    position: relative;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    left: 25%;
+    top: 10px;
+    width: 150px;
+    
+}
+#nombre{
+    background-color:rgb(0, 37, 78) ;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+h3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+body{
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-left: 5px;
 }
